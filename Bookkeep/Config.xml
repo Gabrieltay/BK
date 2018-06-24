@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <add name="ConnectionString" value="Server=DESKTOP-3UDK8LT\SQL2017;Database=Bookkeep;User Id=admin;Password=qwert12345;"/>
+</Configuration>

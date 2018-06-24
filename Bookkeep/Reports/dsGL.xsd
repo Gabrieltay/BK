@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsGL" targetNamespace="http://tempuri.org/dsGL.xsd" xmlns:mstns="http://tempuri.org/dsGL.xsd" xmlns="http://tempuri.org/dsGL.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsGL" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsGL" msprop:Generator_UserDSName="dsGL">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtGL" msprop:Generator_TableClassName="dtGLDataTable" msprop:Generator_TableVarName="tabledtGL" msprop:Generator_TablePropName="dtGL" msprop:Generator_RowDeletingName="dtGLRowDeleting" msprop:Generator_RowChangingName="dtGLRowChanging" msprop:Generator_RowEvHandlerName="dtGLRowChangeEventHandler" msprop:Generator_RowDeletedName="dtGLRowDeleted" msprop:Generator_UserTableName="dtGL" msprop:Generator_RowChangedName="dtGLRowChanged" msprop:Generator_RowEvArgName="dtGLRowChangeEvent" msprop:Generator_RowClassName="dtGLRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="cDate" msprop:Generator_ColumnVarNameInTable="columncDate" msprop:Generator_ColumnPropNameInRow="cDate" msprop:Generator_ColumnPropNameInTable="cDateColumn" msprop:Generator_UserColumnName="cDate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="cDocument" msprop:Generator_ColumnVarNameInTable="columncDocument" msprop:Generator_ColumnPropNameInRow="cDocument" msprop:Generator_ColumnPropNameInTable="cDocumentColumn" msprop:Generator_UserColumnName="cDocument" type="xs:string" minOccurs="0" />
+              <xs:element name="cCode" msprop:Generator_ColumnVarNameInTable="columncCode" msprop:Generator_ColumnPropNameInRow="cCode" msprop:Generator_ColumnPropNameInTable="cCodeColumn" msprop:Generator_UserColumnName="cCode" type="xs:string" minOccurs="0" />
+              <xs:element name="cAccount" msprop:Generator_ColumnVarNameInTable="columncAccount" msprop:Generator_ColumnPropNameInRow="cAccount" msprop:Generator_ColumnPropNameInTable="cAccountColumn" msprop:Generator_UserColumnName="cAccount" type="xs:string" minOccurs="0" />
+              <xs:element name="cDescription" msprop:Generator_ColumnVarNameInTable="columncDescription" msprop:Generator_ColumnPropNameInRow="cDescription" msprop:Generator_ColumnPropNameInTable="cDescriptionColumn" msprop:Generator_UserColumnName="cDescription" type="xs:string" minOccurs="0" />
+              <xs:element name="cReference" msprop:Generator_ColumnVarNameInTable="columncReference" msprop:Generator_ColumnPropNameInRow="cReference" msprop:Generator_ColumnPropNameInTable="cReferenceColumn" msprop:Generator_UserColumnName="cReference" type="xs:string" minOccurs="0" />
+              <xs:element name="cDebit" msprop:Generator_ColumnVarNameInTable="columncDebit" msprop:Generator_ColumnPropNameInRow="cDebit" msprop:Generator_ColumnPropNameInTable="cDebitColumn" msprop:Generator_UserColumnName="cDebit" type="xs:double" minOccurs="0" />
+              <xs:element name="cCredit" msprop:Generator_ColumnVarNameInTable="columncCredit" msprop:Generator_ColumnPropNameInRow="cCredit" msprop:Generator_ColumnPropNameInTable="cCreditColumn" msprop:Generator_UserColumnName="cCredit" type="xs:double" minOccurs="0" />
+              <xs:element name="cBalance" msprop:Generator_ColumnVarNameInTable="columncBalance" msprop:Generator_ColumnPropNameInRow="cBalance" msprop:Generator_ColumnPropNameInTable="cBalanceColumn" msprop:Generator_UserColumnName="cBalance" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
