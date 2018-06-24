@@ -43,13 +43,13 @@ namespace Bookkeep
                 MessageBox.Show("Account Code/Type/Name cannot be blank", "Add Account");
                 return;
             }
-            if (BL.AccountType == "BS" || BL.AccountType == "PL" || BL.AccountType == "TD" || BL.AccountType == "TC")
-            {}
-            else
-            {
-                MessageBox.Show("Invalid Account Type", "Add Account");
-                return;
-            }
+            //if (BL.AccountType == "BS" || BL.AccountType == "PL" || BL.AccountType == "TD" || BL.AccountType == "TC")
+            //{}
+            //else
+            //{
+            //    MessageBox.Show("Invalid Account Type", "Add Account");
+            //    return;
+            //}
 
             if (this._IsAdd)
             {
